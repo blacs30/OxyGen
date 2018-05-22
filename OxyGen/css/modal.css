@@ -1,6 +1,17 @@
 ﻿/*From http://codepen.io/IronFeast/details/fLovn/
 */
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/yanone-kaffeesatz-v9-latin-regular.eot');
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'),
+       url('../font/yanone-kaffeesatz-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/yanone-kaffeesatz-v9-latin-regular.woff2') format('woff2'),
+       url('../font/yanone-kaffeesatz-v9-latin-regular.woff') format('woff'),
+       url('../font/yanone-kaffeesatz-v9-latin-regular.ttf') format('truetype'),
+       url('../font/yanone-kaffeesatz-v9-latin-regular.svg#YanoneKaffeesatz') format('svg');
+}
 #info-modals{
   margin-left: 10px;
   margin-top: 45px;
